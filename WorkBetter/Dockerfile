@@ -10,7 +10,6 @@ FROM alpine:3.2
 # File Author / Maintainer
 MAINTAINER Karthik Gaekwad
 
-
 # Install Nginx
 RUN apk add --update nginx && rm -rf /var/cache/apk/*
 RUN mkdir -p /tmp/nginx/client-body
